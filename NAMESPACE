@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(httr,content)
+importFrom(httr,GET)
+importFrom(xml2,xml_find_all)

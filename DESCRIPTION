@@ -1,0 +1,15 @@
+Package: smarkets
+Type: Package
+Title: Smarkets Odds Feed API
+Version: 0.1.0
+Author: Mathew Hall
+Maintainer: Mathew Hall <mathew.hall+gh@gmail.com>
+Description: Access the Smarkets Odds Feed inc Market Depth
+License: BSD
+Encoding: UTF-8
+LazyData: true
+Imports: httr (>= 0.2), xml2 (>= 1.1.1)
+Collate:
+    'cache.R'
+    'oddsfeed.R'
+    'events.R'
